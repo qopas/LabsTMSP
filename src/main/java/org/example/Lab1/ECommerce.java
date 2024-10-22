@@ -22,7 +22,7 @@ public class ECommerce {
         // Example of switching to another payment method without modifying existing classes
         paymentMethod = new CreditCardPayment();
         processor = new PaymentProcessor(paymentMethod);
-        processor.process(100.00);  /
+        processor.process(100.00);
 
         /* 3. Single Responsibility Principle (SRP):
           Each class in the code is responsible for only one thing:
