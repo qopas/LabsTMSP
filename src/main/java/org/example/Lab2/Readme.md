@@ -145,6 +145,7 @@ Changes to device management are centralized in the facade, minimizing the impac
 ---
 ## Screenshots / Results
 In figure 1 is represented the main menu, and also the output of the first butoon
+
 ![image](https://github.com/user-attachments/assets/331c147e-18a4-4123-b715-d5e8740a56d6)
 
 _Figure 1. Main menu_
@@ -164,7 +165,7 @@ Figure 4 showing the functionality of enabling powersaving
 ![image](https://github.com/user-attachments/assets/ddabc9d9-8435-4f50-bb87-b6f5e53026b8)
 
 _Figure 4. Enable of power saving_
----
+
 ## Conclusion
 Working with structural design patterns in the Smart Home System really highlighted how useful these patterns are for building organized and adaptable systems.  Using these patterns made the Smart Home System more flexible, maintainable, and ready for future updates. This project was a great way to see how design patterns can solve real-world coding challenges, creating a system that’s both powerful and easy to expand.
 
