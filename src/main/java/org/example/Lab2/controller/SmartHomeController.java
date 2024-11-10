@@ -30,84 +30,15 @@ public class SmartHomeController {
         return instance;
     }
 
+    public List<Device> getDevices() {
+        return devices;
+    }
+
     public void addDevice(Device device) {
         devices.add(device);
     }
 
     public void removeDevice(Device device) {
         devices.remove(device);
-    }
-
-    public List<Device> getDevices() {
-        return devices;
-    }
-    public void showDevices() {
-        if (devices.isEmpty()) {
-            System.out.println("No devices available.");
-        } else {
-            for (Device device : devices) {
-                System.out.println(device.getName() + " - " + device.getStatus());
-            }
-        }
-    }
-
-    // Toggle device on/off based on device name
-    public void toggleDevice(String deviceName, boolean turnOn) {
-        for (Device device : devices) {
-            if (device.getName().equalsIgnoreCase(deviceName)) {
-                device.setStatus(turnOn);
-                System.out.println(deviceName + " is now " + device.getStatus());
-                return;
-            }
-        }
-        System.out.println("Device not found.");
-    }
-
-    // Adjust light brightness
-    public void adjustLightBrightness(String lightName, int brightness) {
-        for (Device device : devices) {
-            if (device instanceof Light && device.getName().equalsIgnoreCase(lightName)) {
-                Light light = (Light) device;
-                light.setBrightness(brightness);
-                System.out.println("Brightness of " + lightName + " set to " + brightness + "%.");
-                return;
-            }
-        }
-        System.out.println("Light device not found or incorrect name.");
-    }
-
-    // Set thermostat temperature
-    public void setThermostatTemperature(String thermostatName, double temperature) {
-        for (Device device : devices) {
-            if (device instanceof Thermostat && device.getName().equalsIgnoreCase(thermostatName)) {
-                Thermostat thermostat = (Thermostat) device;
-                thermostat.setTemperature((int) temperature);
-                System.out.println("Temperature of " + thermostatName + " set to " + temperature + "°C.");
-                return;
-            }
-        }
-        System.out.println("Thermostat device not found or incorrect name.");
-    }
-
-    // Enable power-saving mode for devices
-    public void enablePowerSaving() {
-        for (Device device : devices) {
-            if (device instanceof PowerSavingDevice) {
-                PowerSavingDevice psDevice = (PowerSavingDevice) device;
-                psDevice.enablePowerSaving();
-            }
-        }
-        System.out.println("Power-saving mode enabled for compatible devices.");
-    }
-
-    // Disable power-saving mode for devices
-    public void disablePowerSaving() {
-        for (Device device : devices) {
-            if (device instanceof PowerSavingDevice) {
-                PowerSavingDevice psDevice = (PowerSavingDevice) device;
-                psDevice.disablePowerSaving();
-            }
-        }
-        System.out.println("Power-saving mode disabled for compatible devices.");
     }
 }
