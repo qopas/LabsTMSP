@@ -1,4 +1,4 @@
-package org.example.Lab2.device;
+package org.example.Lab1.device;
 
 /**
  * Device is an abstract class representing a general smart device in the system.

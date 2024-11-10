@@ -1,4 +1,4 @@
-package org.example.Lab1;
+package org.example.Lab0;
 
 public class PayPalPayment implements PaymentMethod {
     @Override

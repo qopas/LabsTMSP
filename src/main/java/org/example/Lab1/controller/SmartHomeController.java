@@ -1,6 +1,6 @@
-package org.example.Lab2.controller;
+package org.example.Lab1.controller;
 
-import org.example.Lab2.device.Device;
+import org.example.Lab1.device.Device;
 
 import java.util.ArrayList;
 import java.util.List;

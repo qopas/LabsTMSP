@@ -1,7 +1,7 @@
-package org.example.Lab2.factory;
+package org.example.Lab1.factory;
 
-import org.example.Lab2.device.Device;
-import org.example.Lab2.device.Light;
+import org.example.Lab1.device.Device;
+import org.example.Lab1.device.Light;
 
 /**
  * LightFactory is a concrete factory that creates Light devices.

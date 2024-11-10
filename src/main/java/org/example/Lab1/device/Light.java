@@ -1,4 +1,4 @@
-package org.example.Lab2.device;
+package org.example.Lab1.device;
 
 /**
  * Light is a concrete subclass of Device representing a smart light.

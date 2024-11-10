@@ -1,6 +1,6 @@
-package org.example.Lab2.factory;
+package org.example.Lab1.factory;
 
-import org.example.Lab2.device.Device;
+import org.example.Lab1.device.Device;
 
 /**
  * DeviceFactory is an interface defining the factory method to create devices.

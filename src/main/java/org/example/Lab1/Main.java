@@ -1,8 +1,8 @@
-package org.example.Lab2;
-import org.example.Lab2.controller.SmartHomeController;
-import org.example.Lab2.device.Device;
-import org.example.Lab2.factory.DeviceFactory;
-import org.example.Lab2.factory.LightFactory;
+package org.example.Lab1;
+import org.example.Lab1.controller.SmartHomeController;
+import org.example.Lab1.device.Device;
+import org.example.Lab1.factory.DeviceFactory;
+import org.example.Lab1.factory.LightFactory;
 
 /**
  * The Smart Home System project simulates a setup where
