@@ -1,22 +1,18 @@
-package org.example.Lab2.client;
+package org.example.Lab3.client;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextInputDialog;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
 import javafx.stage.Stage;
-import org.example.Lab2.controller.SmartHomeController;
-import org.example.Lab2.domain.adapters.ThirdPartyDeviceAdapter;
-import org.example.Lab2.domain.clases.Device;
-import org.example.Lab2.domain.clases.ThirdPartyDevice;
-import org.example.Lab2.domain.commands.CommandExecutor;
-import org.example.Lab2.domain.commands.TurnOffCommand;
-import org.example.Lab2.domain.commands.TurnOnCommand;
-import org.example.Lab2.domain.facade.SmartHomeFacade;
-import org.example.Lab2.domain.factories.LightFactory;
-import org.example.Lab2.domain.factories.ThermostatFactory;
+import org.example.Lab3.controller.SmartHomeController;
+import org.example.Lab3.domain.adapters.ThirdPartyDeviceAdapter;
+import org.example.Lab3.domain.clases.Device;
+import org.example.Lab3.domain.clases.ThirdPartyDevice;
+import org.example.Lab3.domain.commands.*;
+import org.example.Lab3.domain.factories.LightFactory;
+import org.example.Lab3.domain.factories.ThermostatFactory;
+import org.example.Lab3.domain.facade.SmartHomeFacade;
 
 public class Main extends Application {
     private static SmartHomeController controller = SmartHomeController.getInstance();

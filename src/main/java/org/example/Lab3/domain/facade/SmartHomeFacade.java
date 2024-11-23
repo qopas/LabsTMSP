@@ -1,10 +1,10 @@
-package org.example.Lab2.domain.facade;
+package org.example.Lab3.domain.facade;
 
+import org.example.Lab3.controller.SmartHomeController;
+import org.example.Lab3.domain.clases.Device;
+import org.example.Lab3.domain.clases.Light;
 import org.example.Lab3.domain.clases.PowerSavingDevice;
 import org.example.Lab3.domain.clases.Thermostat;
-import org.example.Lab2.controller.SmartHomeController;
-import org.example.Lab2.domain.clases.Device;
-import org.example.Lab2.domain.clases.Light;
 
 public class SmartHomeFacade {
     private SmartHomeController controller;

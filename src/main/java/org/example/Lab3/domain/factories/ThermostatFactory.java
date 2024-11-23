@@ -1,7 +1,7 @@
-package org.example.Lab2.domain.factories;
+package org.example.Lab3.domain.factories;
 
+import org.example.Lab3.domain.clases.Device;
 import org.example.Lab3.domain.clases.Thermostat;
-import org.example.Lab2.domain.clases.Device;
 
 public class ThermostatFactory implements DeviceFactory {
     @Override

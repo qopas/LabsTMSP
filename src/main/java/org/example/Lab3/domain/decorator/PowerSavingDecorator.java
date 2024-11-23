@@ -1,7 +1,7 @@
-package org.example.Lab2.domain.decorator;
+package org.example.Lab3.domain.decorator;
 
+import org.example.Lab3.domain.clases.Device;
 import org.example.Lab3.domain.clases.PowerSavingDevice;
-import org.example.Lab2.domain.clases.Device;
 
 public class PowerSavingDecorator extends DeviceDecorator implements PowerSavingDevice {
 

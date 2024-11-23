@@ -1,6 +1,7 @@
-package org.example.Lab2.controller;
+package org.example.Lab3.controller;
 
-import org.example.Lab2.domain.clases.Device;
+import org.example.Lab3.domain.clases.Device;
+import org.example.Lab3.domain.clases.Thermostat;
 
 import java.util.ArrayList;
 import java.util.List;

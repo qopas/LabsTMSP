@@ -33,7 +33,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>org.example.Lab2.client.Main</mainClass> <!-- Replace with your actual main class path -->
+                    <mainClass>org.example.Lab3.client.Main</mainClass> <!-- Replace with your actual main class path -->
                 </configuration>
                 <executions>
                     <execution>
